@@ -31,5 +31,6 @@ int main() {
         }
     }
     else {cout <<"введите положительное  k или меньшее n";}
+    delete [] arr;
     return 0;
 }
